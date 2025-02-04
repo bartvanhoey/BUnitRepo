@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BUnitSln", "BUnitSln\BUnitSln.csproj", "{AE22B1D1-7103-4977-A354-0CB9A87681CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BUnitApp.Wasm", "BUnitApp.Wasm\BUnitApp.Wasm.csproj", "{79556F4B-ED64-4A6D-B9E0-4E2E52F901F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BUnitApp.Tests", "BUnitApp.Tests\BUnitApp.Tests.csproj", "{32B679B7-0DFA-4BBE-A5E8-15F851B5ABC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +10,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AE22B1D1-7103-4977-A354-0CB9A87681CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AE22B1D1-7103-4977-A354-0CB9A87681CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AE22B1D1-7103-4977-A354-0CB9A87681CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AE22B1D1-7103-4977-A354-0CB9A87681CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79556F4B-ED64-4A6D-B9E0-4E2E52F901F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79556F4B-ED64-4A6D-B9E0-4E2E52F901F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79556F4B-ED64-4A6D-B9E0-4E2E52F901F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79556F4B-ED64-4A6D-B9E0-4E2E52F901F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32B679B7-0DFA-4BBE-A5E8-15F851B5ABC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32B679B7-0DFA-4BBE-A5E8-15F851B5ABC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32B679B7-0DFA-4BBE-A5E8-15F851B5ABC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32B679B7-0DFA-4BBE-A5E8-15F851B5ABC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
