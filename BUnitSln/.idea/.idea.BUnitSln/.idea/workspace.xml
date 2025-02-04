@@ -8,81 +8,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ea0e4ba-99af-4080-8c1c-6c2e00347980" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BUnitSln/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BUnitSln/.idea/indexLayout.xml" beforeDir="false" />
+    <list default="true" id="4ea0e4ba-99af-4080-8c1c-6c2e00347980" name="Changes" comment="Update">
+      <change afterPath="$PROJECT_DIR$/BUnitApp.Wasm/Components/ComponentWithParams.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BUnitApp.Wasm/Components/ComponentWithParams.razor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BunitApp.Tests/ComponentWithParamsTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BUnitSln/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BUnitSln/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln.sln" beforeDir="false" afterPath="$PROJECT_DIR$/BUnitSln.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/App.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/BUnitSln.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/Layout/LoginDisplay.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/Layout/MainLayout.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/Layout/MainLayout.razor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/Layout/NavMenu.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/Layout/NavMenu.razor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/Layout/RedirectToLogin.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/Pages/Authentication.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/Pages/Counter.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/Pages/Home.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/Pages/Weather.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/_Imports.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/css/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/icon-192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/icon-512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/manifest.webmanifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/sample-data/weather.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/service-worker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUnitSln/wwwroot/service-worker.published.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +34,7 @@
     &quot;accountId&quot;: &quot;89b2a74c-0420-4033-88f7-6dbc161e02fe&quot;
   }
 }</component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
@@ -169,14 +100,46 @@
       <option name="presentableId" value="Default" />
       <updated>1738696641656</updated>
       <workItem from="1738696643105" duration="594000" />
+      <workItem from="1738697257870" duration="1144000" />
     </task>
+    <task id="LOCAL-00001" summary="Update">
+      <option name="closed" value="true" />
+      <created>1738697275440</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738697275440</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update">
+      <option name="closed" value="true" />
+      <created>1738697388123</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738697388123</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>
